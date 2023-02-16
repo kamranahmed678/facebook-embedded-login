@@ -11,7 +11,7 @@ function App() {
         appId: '719081352898093', // Facebook App ID
         cookie: true, // enable cookies
         xfbml: true, // parse social plugins on this page
-        version: 'v16.0', // Graph API version
+        version: 'v15.0', // Graph API version
       });
     };
     (function (d, s, id) {
