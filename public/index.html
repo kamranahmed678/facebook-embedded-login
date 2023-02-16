@@ -9,6 +9,17 @@
       name="description"
       content="Web site created using create-react-app"
     />
+    <script>
+      window.fbAsyncInit = function () {
+        // JavaScript SDK configuration and setup
+        FB.init({
+          appId:    '719081352898093', // Meta App ID
+          cookie:   true, // enable cookies
+          xfbml:    true, // parse social plugins on this page
+          version:  'v16.0' //Graph API version
+        });
+      };
+    </script>
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
